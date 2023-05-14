@@ -1,3 +1,7 @@
+![splash](docs/splash.png)
+
+> "Dockerized for your convenience by these fine lads."
+
 # Setup
 
 - Install docker
