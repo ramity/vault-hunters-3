@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+
+  vault_hunters_minecraft:
+    build:
+      context: ./
+      dockerfile: docker/vault_hunters_minecraft/Dockerfile
+    container_name: vault_hunters_minecraft
+    image: vault_hunters_minecraft
+    ports:
+      - 25566:25565
+    environment:
+      EULA: True
+      INIT_MEMORY: 6G
+      MAX_MEMORY: 32G
+      VERSION: 1.18.2
+      TYPE: FORGE
+      # FORGE_VERSION: 40.1.0 # Recommended
+      FORGE_VERSION: 40.1.85 # Latest
+    volumes:
+    - ./data:/data
+
+networks:
+  default:
+    name: vault_hunters_minecraft_network

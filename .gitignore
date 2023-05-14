@@ -1,0 +1,4 @@
+data/*
+backups/*
+!.gitkeep
+!data/start.sh
