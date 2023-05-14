@@ -2,3 +2,4 @@ data/*
 backups/*
 !.gitkeep
 !data/start.sh
+!data/eula.txt
