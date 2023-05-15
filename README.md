@@ -122,8 +122,8 @@ docker stop vault_hunters
 
 To export data from the ram-disk, there are two provided methods:
 
-- `./scripts/ram_disk/data_export.sh` copies the contents of the `ram_disk` directory and **overwrites** the contents of the `data` directory.
-- `./scripts/ram_disk/zip_export.sh` copies the contents of the `ram_disk` directory and creates a **new** zip archive in the `exports` directory.
+- `./scripts/ram_disk/data_export.sh` copies the contents of the `ram_disk` directory and <u>overwrites</u> the contents of the `data` directory.
+- `./scripts/ram_disk/zip_export.sh` copies the contents of the `ram_disk` directory and creates a <u>new</u> zip archive in the `exports` directory.
 
 Examples:
 
@@ -139,8 +139,8 @@ Examples:
 
 To import data into the ram-disk, there are two provided methods:
 
-- `./scripts/ram_disk/data_import.sh` copies the contents of the `data` directory and **overwrites** the contents of the `ram_disk` directory.
-- `./scripts/ram_disk/zip_import.sh ZIP_FILE_PATH` unzips the the specified zip archive and **overwrites** the contents of the  `ram_disk` directory.
+- `./scripts/ram_disk/data_import.sh` copies the contents of the `data` directory and <u>overwrites</u> the contents of the `ram_disk` directory.
+- `./scripts/ram_disk/zip_import.sh ZIP_FILE_PATH` unzips the the specified zip archive and <u>overwrites</u> the contents of the  `ram_disk` directory.
 
 Examples:
 
