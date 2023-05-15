@@ -5,3 +5,4 @@ ramdisk/*
 !.gitkeep
 !data/eula.txt
 !data/start.sh
+!data/server.properties
