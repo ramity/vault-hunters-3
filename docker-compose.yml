@@ -2,20 +2,28 @@ version: "3.9"
 
 services:
 
-  vault_hunters_minecraft:
+  vault_hunters:
     build:
       context: ./
-      dockerfile: docker/vault_hunters_minecraft/Dockerfile
-    container_name: vault_hunters_minecraft
-    image: vault_hunters_minecraft
+      dockerfile: docker/vault_hunters/Dockerfile
+    container_name: vault_hunters
+    image: vault_hunters
     ports:
       - 25565:25565
     environment:
-      INIT_MEMORY: 6G
+      INIT_MEMORY: 16G
       MAX_MEMORY: 32G
+
+    # RAM-DISK
+    # volumes:
+    # - ./ram-disk:/ram-disk
+    # working_dir: /ram-disk
+
+    # DATA FS:
     volumes:
     - ./data:/data
+    working_dir: /data
 
 networks:
   default:
-    name: vault_hunters_3_network
+    name: vault_hunters_network
