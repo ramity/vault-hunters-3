@@ -2,7 +2,7 @@
 
 > "Dockerized for your convenience by these fine lads."
 
-# TOC:
+# TOC
 
 - [Quick setup](#quick-setup)
 - [Quick start](#quick-start)
@@ -79,7 +79,7 @@ Run the following script:
 ./scripts/backup.sh
 ```
 
-# Ramdisk enhanced setup:
+# Ramdisk enhanced setup
 
 This repo supports the use of a ram-disk to further improve server load times and general responsiveness. Ram-disks are temporary mounts that do not persist after reboot. You have been warned.
 
