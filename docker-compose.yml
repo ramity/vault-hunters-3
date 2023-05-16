@@ -16,8 +16,8 @@ services:
 
     # RAM-DISK
     # volumes:
-    # - ./ram-disk:/ram-disk
-    # working_dir: /ram-disk
+    # - ./ram_disk:/ram_disk
+    # working_dir: /ram_disk
 
     # DATA FS:
     volumes:
