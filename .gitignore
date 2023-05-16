@@ -1,7 +1,7 @@
 backups/*
 data/*
 exports/*
-ramdisk/*
+ram_disk/*
 !.gitkeep
 !data/eula.txt
 !data/start.sh
