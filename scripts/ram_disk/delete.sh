@@ -9,8 +9,11 @@ if ! mountpoint -q "$path"; then
     exit 1
 fi
 
-# Check if the directory is not empty
-if ! [ -z "$(ls -A $path)" ]; then
+# Calculate the number of files in path
+file_count=$(find "$path" -type f | wc -l)
+
+# Check if .gitkeep is not the only file in the directory
+if ! [ "$file_count" -eq 1 ] || ! [ "$(basename "$(find "$path" -type f)")" = ".gitkeep" ]; then
     echo "$path is not empty."
     echo "Please run the provided clear.sh script prior to deleting ram-disk."
     exit 1

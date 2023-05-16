@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Config
-destination="./ram_disk"
+destination="./test"
 
 # Check if a zip file argument is provided
 if [ $# -eq 0 ]; then
@@ -13,7 +13,7 @@ zip_file=$1
 
 # Make sure the provided zip_file exists
 if [ ! -e "$zip_file" ]; then
-    echo "File does not exist: $file_path"
+    echo "File does not exist: $zip_file"
     exit 1
 fi
 
