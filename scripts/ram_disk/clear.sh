@@ -20,7 +20,8 @@ case "$choice" in
         # Nuke the contents of the configured ram-disk dir
         # -v rebose - show progress
         # -r recursive - all files and subfolders in dir
-        rm -v -r $path/*
+        # -f force - ignore nonexistent files, never prompt
+        rm -v -r -f $path/*
         ;;
     n|N)
         echo "Exiting..."
