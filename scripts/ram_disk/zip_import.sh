@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Config
-destination="./test"
+destination="."
 
 # Check if a zip file argument is provided
 if [ $# -eq 0 ]; then
