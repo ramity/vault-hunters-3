@@ -26,7 +26,7 @@
 - Download files from [here](https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2/files/4516817)
 - Unzip into the data directory
 - (optional) Configure the ./data/server.properties file.
-- (optional) Configure docker-compose.yml file's INIT_MEMORY and MAX_MEMORY definitions (default is 16G, 32G respectively).
+- (optional) Configure docker-compose.yml file's INIT_MEMORY and MAX_MEMORY definitions (default is 8G, 16G respectively).
 
 > It's that simple.
 
@@ -87,7 +87,7 @@ This repo supports the use of a ram-disk to further improve server load times an
 - Download files from [here](https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2/files/4516817)
 - Unzip into the data directory
 - (optional) Configure the ./data/server.properties file.
-- (optional) Configure docker-compose.yml file's INIT_MEMORY and MAX_MEMORY definitions (default is 16G, 32G respectively).
+- (optional) Configure docker-compose.yml file's INIT_MEMORY and MAX_MEMORY definitions (default is 8G, 16G respectively).
 - Create ram-disk:
 
 ```
