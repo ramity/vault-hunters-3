@@ -22,6 +22,8 @@ case "$choice" in
         # -r recursive - all files and subfolders in dir
         # -f force - ignore nonexistent files, never prompt
         rm -v -r -f $path/*
+        # Recreate .gitkeep file
+        touch $path/.gitkeep
         ;;
     n|N)
         echo "Exiting..."
