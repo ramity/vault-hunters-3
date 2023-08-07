@@ -9,7 +9,7 @@ fi
 
 MINECRAFT_VERSION="1.18.2"
 MODLOADER="Forge"
-MODLOADER_VERSION="40.1.85"
+MODLOADER_VERSION="40.2.4"
 ARGS=""
 JAVA="java"
 MINECRAFT_SERVER_URL="https://launcher.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar"
