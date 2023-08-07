@@ -23,7 +23,7 @@
 # Quick setup
 
 - Install docker
-- Download files from [here](https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2/files/4516817)
+- Navigate to the downloads [here](https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2/files), select the latest version, and **download the server files** under the "additional files" section.
 - Unzip into the data directory
 - (optional) Configure the ./data/server.properties file.
 - (optional) Configure docker-compose.yml file's INIT_MEMORY and MAX_MEMORY definitions (default is 8G, 16G respectively).
